@@ -15,6 +15,6 @@ public class Main {
             System.out.println(order);
         }
 
-        System.out.printf("—ÛÏÏ‡ Á‡Í‡Á‡ %d", calculator.calcAmount());
+        System.out.printf("–°—É–º–º–∞ –∑–∞–∫–∞–∑–∞ %d", calculator.calcAmount());
     }
 }

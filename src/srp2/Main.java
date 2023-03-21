@@ -4,7 +4,7 @@ import srp2.model.Order;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Введите заказ:");
+        System.out.println("Р’РІРµРґРёС‚Рµ Р·Р°РєР°Р·:");
         Order order = new Order("", "", 0, 0);
         order.inputFromConsole();
         order.saveToJson();
