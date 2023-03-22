@@ -1,6 +1,6 @@
 package homework;
 
-public interface Persistereble {
+public interface Saver {
 
     void save();
 }

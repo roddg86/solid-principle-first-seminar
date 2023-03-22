@@ -1,12 +1,15 @@
 package homework;
 
-public class User implements Reportable, Persistereble{
+public class User implements Reportable, Saver {
     private final String name;
 
-    public User(String name){
+    public User(String name) {
         this.name = name;
     }
 
+    public String getName(){
+        return name;
+    }
 
     @Override
     public void report() {
