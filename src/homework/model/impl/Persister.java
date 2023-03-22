@@ -1,6 +1,8 @@
-package homework;
+package homework.model.impl;
 
-public class Persister implements Saver{
+import homework.util.Saver;
+
+public class Persister implements Saver {
     private final User user;
 
     public Persister(User user){

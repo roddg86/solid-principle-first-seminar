@@ -1,4 +1,7 @@
-package homework;
+package homework.model.impl;
+
+import homework.model.Reportable;
+import homework.util.Saver;
 
 public class User implements Reportable, Saver {
     private final String name;

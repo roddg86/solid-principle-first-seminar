@@ -1,4 +1,4 @@
-package homework;
+package homework.model;
 
 public interface Reportable {
 
