@@ -3,7 +3,7 @@ package homework.model.impl;
 import homework.model.Reportable;
 import homework.util.Saver;
 
-public class User implements Reportable, Saver {
+public class User implements Reportable {
     private final String name;
 
     public User(String name) {
@@ -19,8 +19,4 @@ public class User implements Reportable, Saver {
         System.out.println("Report for user: " + name);
     }
 
-    @Override
-    public void save() {
-        System.out.println("Save user: " + name);
-    }
 }

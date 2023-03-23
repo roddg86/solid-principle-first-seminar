@@ -1,7 +1,6 @@
 package dip1.model;
 
 import dip1.model.util.Printer;
-import dip1.model.util.ReportPrinter;
 
 import java.util.ArrayList;
 import java.util.List;
